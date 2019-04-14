@@ -7,7 +7,7 @@ body{
     background-color: #f5f5f5;
 }
 #header{
-    z-index: 9;
+    z-index: 5;
     position: fixed;
     top: 0;
     width: 100%;
@@ -80,3 +80,70 @@ body{
        display: relative;
 
   }
+  #album{
+    position: absolute;
+    width: 100%;
+    margin-top: -8%;
+    padding: 50px;
+    list-style: none;
+}
+.fdfd a:hover{
+    color: rgba(255, 255,255, 0.7);
+}
+.fdfd a{
+    margin-right: 7px;
+    font-size: 22px;
+    text-decoration:none; 
+    color: #ffffff;
+}
+.formu{
+    position: absolute;
+    margin-top: 5%;
+}
+#noticia h3{
+    font-size: 9pt;
+    color: #606060;
+  }
+  
+  #noticia h1{
+    font-size: 20pt;
+    color: #606060;
+  }
+  #frame {
+    width: 380px;
+    height: 280px;
+    border: none;
+  }
+
+#album li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+#album li:hover{
+    transform: scale(1.5);
+    transition: all .3s ease-in;
+}
+
+.foto1 {
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-color: #fff;
+    background-position: 40% 40%;
+}
+.foto1:hover {
+    background-size: 200px 200px;
+    background-position: 0% 0%;
+}
+.tab{
+margin-top:10%;
+display: flex;
+align-content: center;
+align-items: center;
+justify-items: center;
+position: absolute;
+}
